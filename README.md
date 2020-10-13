@@ -12,15 +12,19 @@
 ### Setup
 #### `.env` requirements
 - `PORT` - Port Number
+#### `package.json` requirements
+- `npm install`
+  - [minimist](https://www.npmjs.com/package/minimist)
+
 
 #### Running the app
-- `npm start`
+- `node index.js --add "Feed dog"`
 
 #### Tests
 
 - Unit Tests: `npm run test`
 - Lint Tests: `npm run lint`
 
-#### UML
+#### UML Lab01
 
-![UML Diagram](uml.png)
+![UML Lab01](assets/uml-lab01.jpg)
