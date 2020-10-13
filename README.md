@@ -5,7 +5,6 @@
 ### Author: Tif Taylor
 
 ### Links & Resources
-- [Open PR Link for grader commenting](https://github.com/401-advanced-javascript-tiftaylor/notes/pull/1)
 - [tests report](https://github.com/401-advanced-javascript-tiftaylor/notes/actions)
 
 
@@ -25,6 +24,7 @@
 - Unit Tests: `npm run test`
 - Lint Tests: `npm run lint`
 
-#### UML Lab01
+#### UML's
 
 ![UML Lab01](assets/uml-lab01.jpg)
+![UML Lab02](assets/uml-lab02.jpg)
