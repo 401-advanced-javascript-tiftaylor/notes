@@ -5,7 +5,7 @@
 ### Author: Tif Taylor
 
 ### Links & Resources
-- [Open PR Link for grader commenting]()
+- [Open PR Link for grader commenting](https://github.com/401-advanced-javascript-tiftaylor/notes/pull/1)
 - [tests report](https://github.com/401-advanced-javascript-tiftaylor/notes/actions)
 
 
