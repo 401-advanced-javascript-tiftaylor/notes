@@ -1,11 +1,24 @@
 'use strict';
 
+require('dotenv').config();
+const mongoose = require('mongoose');
 const Input = require('./lib/input.js');
 const Notes = require('./lib/notes.js');
 
-const argv = require('minimist')(process.argv.slice(2));
 
-let newInput = new Input(argv);
+// concnect to mongoose / mongoDB
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+}).then(() => {
+  // create new Input instance
+  const argv = require('minimist')(process.argv.slice(2));
+  let newInput = new Input(argv);
 
-const newNote = new Notes(newInput.action, newInput.payload);
-newNote.execute();
+  // create new Notes object
+  const newNote = new Notes(newInput.action, newInput.payload);
+  newNote.execute();
+})
+
+
+
