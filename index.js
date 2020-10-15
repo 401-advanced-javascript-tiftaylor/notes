@@ -14,11 +14,17 @@ mongoose.connect(process.env.MONGODB_URI, {
   // create new Input instance
   const argv = require('minimist')(process.argv.slice(2));
   let newInput = new Input(argv);
-
+ 
   // create new Notes object
-  const newNote = new Notes(newInput.action, newInput.payload);
-  newNote.execute();
-})
+  const newNote = new Notes(newInput.action, newInput.payload, newInput.category);
+
+  return newNote.execute()
+    .then(() => mongoose.disconnect());
+
+}).catch((error) => {
+  console.error(error);
+  mongoose.disconnect();
+});
 
 
 

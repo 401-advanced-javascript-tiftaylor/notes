@@ -10,10 +10,12 @@
 
 ### Setup
 #### `.env` requirements
-- `PORT` - Port Number
+- MongoDB URI from Atlas: `MONGODB_URI`
 #### `package.json` requirements
 - `npm install`
   - [minimist](https://www.npmjs.com/package/minimist)
+  - [dotenv](https://www.npmjs.com/package/dotenv)
+  - [moongoose](https://www.npmjs.com/package/mongoose)
 
 
 #### Running the app
