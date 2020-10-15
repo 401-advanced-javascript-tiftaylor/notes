@@ -19,7 +19,7 @@
 
 
 #### Running the app
-- `node index.js --add "Feed dog"`
+- `node index.js --add "Feed dog" --category home`
 
 #### Tests
 
@@ -30,3 +30,4 @@
 
 ![UML Lab01](assets/uml-lab01.jpg)
 ![UML Lab02](assets/uml-lab02.jpg)
+![UML Lab03](assets/uml-lab03.jpg)
