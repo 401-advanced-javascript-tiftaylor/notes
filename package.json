@@ -25,6 +25,8 @@
     "jsdoc": "^3.6.6"
   },
   "dependencies": {
-    "minimist": "^1.2.5"
+    "dotenv": "^8.2.0",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.10.9"
   }
 }

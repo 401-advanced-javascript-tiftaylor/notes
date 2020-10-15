@@ -10,14 +10,16 @@
 
 ### Setup
 #### `.env` requirements
-- `PORT` - Port Number
+- MongoDB URI from Atlas: `MONGODB_URI`
 #### `package.json` requirements
 - `npm install`
   - [minimist](https://www.npmjs.com/package/minimist)
+  - [dotenv](https://www.npmjs.com/package/dotenv)
+  - [moongoose](https://www.npmjs.com/package/mongoose)
 
 
 #### Running the app
-- `node index.js --add "Feed dog"`
+- `node index.js --add "Feed dog" --category home`
 
 #### Tests
 
@@ -28,3 +30,4 @@
 
 ![UML Lab01](assets/uml-lab01.jpg)
 ![UML Lab02](assets/uml-lab02.jpg)
+![UML Lab03](assets/uml-lab03.jpg)
