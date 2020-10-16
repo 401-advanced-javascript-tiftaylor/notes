@@ -1,5 +1,5 @@
 {
-  "name": "notes",
+  "name": "@tif-taylor/notes",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,5 +29,8 @@
     "dotenv": "^8.2.0",
     "minimist": "^1.2.5",
     "mongoose": "^5.10.9"
+  },
+  "bin": {
+    "notes": "index.js"
   }
 }
