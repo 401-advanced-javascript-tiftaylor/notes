@@ -6,15 +6,9 @@ require('@code-fellows/supergoose');
 const consoleSpy = jest.spyOn(console, 'log').mockImplementation()
 
 
-// TEST is commented out until Jacob teaches us how to mock mongoose
-
 describe('Testing class Notes', () => {
   beforeEach(() => {
     consoleSpy.mockClear();
-  });
-
-  test('fake test until we are taught', () => {
-    expect(true).toBeTruthy();
   });
 
   test('Something was shown in the console from basic add', () => {
