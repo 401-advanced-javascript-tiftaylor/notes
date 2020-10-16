@@ -1,16 +1,17 @@
-# LAB - 01
+# LAB 01 - 04 | Code Fellows 401
 
-## Project: Notes
+## Project: Notesy
 
-### Author: Tif Taylor
+#### Author: Tif Taylor | Date: October 2020
 
 ### Links & Resources
-- [tests report](https://github.com/401-advanced-javascript-tiftaylor/notes/actions)
+- [GitHub Actions Tests Report](https://github.com/401-advanced-javascript-tiftaylor/notes/actions)
 
 
 ### Setup
 #### `.env` requirements
 - MongoDB URI from Atlas: `MONGODB_URI`
+
 #### `package.json` requirements
 - `npm install`
   - [minimist](https://www.npmjs.com/package/minimist)
@@ -23,11 +24,15 @@
 
 #### Tests
 
-- Unit Tests: `npm run test`
-- Lint Tests: `npm run lint`
+- Unit Tests: `npm test`
 
-#### UML's
 
+### UML for Lab01 thru Lab 04
+**Lab 01**
 ![UML Lab01](assets/uml-lab01.jpg)
+**Lab 02**
 ![UML Lab02](assets/uml-lab02.jpg)
+**Lab 03**
 ![UML Lab03](assets/uml-lab03.jpg)
+**Lab 04**
+![UML Lab03](assets/uml-lab04.jpg)
